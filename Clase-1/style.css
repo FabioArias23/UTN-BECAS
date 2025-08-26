@@ -1,0 +1,49 @@
+/* Estilos generales para toda la pagina*/
+
+body{
+
+    background-color: #f0f8ff;
+
+    font-family: 'Helvetica', sans-serif;
+
+    text-align: center;
+
+}
+
+h1{
+
+    color: #007bff;
+
+    border-bottom: 2px solid #0056b3;
+
+    padding-bottom: 10px;
+
+}
+
+.parrafo-resaltado{
+
+    font-size: 1.2em;
+
+
+    color: #e65100;
+
+
+    font-weight: bold;
+
+}
+
+button{
+    background-color: #28a745;
+
+    color:white;
+
+    padding: 10px 20px;
+
+    border:none;
+
+    border-radius:5px;
+
+    cursor:pointer;
+
+    margin-top: 20px;
+}

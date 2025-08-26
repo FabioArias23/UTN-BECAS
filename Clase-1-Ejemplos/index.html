@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi sitio con CSS</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <h1 id="titulo">¡Mi página web con estilo!</h1>
+    <p>Este es un párrafo de prueba. Le daremos color.</p>
+    <p class="parrafo-resaltado">Este párrafo tendrá un estilo diferente.</p>
+    <button onclick="cambiarTexto()">Un botón</button>
+    <script>
+        function cambiarTexto() {
+            /* 'function cambiarTexto()' define una función de JavaScript. Su nombre es "cambiarTexto". */
+            var titulo = document.getElementById("titulo");
+            /* Esta línea de código busca un elemento en el documento HTML por su 'id' ("titulo") y lo guarda en la variable 'titulo'. */
+            titulo.innerHTML = "¡El texto ha sido cambiado con JS!";
+            /* 'innerHTML' es una propiedad que cambia el contenido de texto dentro del elemento. Aquí, se modifica el texto del h1. */
+            titulo.style.color = "red";
+            /* 'style.color' cambia el color del texto de ese elemento, en este caso, lo pone en rojo. */
+        }
+    </script>
+</body>
+</html>
+

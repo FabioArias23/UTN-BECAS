@@ -1,0 +1,60 @@
+/*Estilos generales para toda la pagina*/
+body {
+  /* 'background-color' es una propiedad que define el color de fondo del elemento. */
+  background-color: #f0f8ff; /* Color de fondo*/
+
+  /* 'font-family' define la familia de la fuente (el tipo de letra) para el texto. */
+  font-family: "Helvetica", sans-serif; /*tipo de letra*/
+
+  /* 'text-align' alinea el texto horizontalmente dentro del elemento. */
+  text-align: center;
+}
+
+/*Estilos para el titulo principal*/
+h1 {
+  /* 'color' cambia el color del texto. */
+  color: #007bff; /* color del texto azul*/
+
+  /* 'border-bottom' añade un borde en la parte inferior del elemento. 
+    Se especifican 3 valores: grosor, estilo y color. */
+  border-bottom: 2px solid #0056b3; /* border inferior*/
+
+  /* 'padding-bottom' añade espacio interno debajo del contenido. */
+  padding-bottom: 10px;
+}
+
+/* Selector de clase '.parrafo-resaltado'. El punto '.' indica que es una clase */
+.parrafo-resaltado {
+  /*'font-size' establece el tamaño del texto 'em' es una unidad de medida relativa*/
+  font-size: 1.2em;
+
+  /*'color' cambia el color del texto.*/
+  color: #e65100;
+
+  /*'font-weight' establece el grosor de la fuente(negrita,normal, etc.).*/
+  font-weight: bold;
+}
+
+/*selector de etiqueta 'button'*/
+button {
+  /*'background-color' define el color de fondo del boton*/
+  background-color: #28a745;
+
+  /*'color' cambia el color del texto del boton*/
+  color: white;
+
+  /*'padding' añade espacio interno alrededor del contenido del boton*/
+  padding: 10px 20px;
+
+  /*'border' elimina el border predeterminado del boton*/
+  border: none;
+
+  /*'border-radius' redondea las esquinas del boton*/
+  border-radius: 5px;
+
+  /*'cursor' cambia el icono del cursor del mouse cuando se pasa el elemento.*/
+  cursor: pointer;
+
+  /*'margin-top' añade espacio externo en la parte superiror del boton */
+  margin-top: 20px;
+}
